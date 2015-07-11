@@ -1,0 +1,4 @@
+Assertion Exceptions that can be raised by Numeric.foo(a,b):
+
+V1: either a<0 or b<0 --> Numeric.foo ("illegal arguments")
+V2: a=2, b=1          --> Numeric.foo ("bad result")

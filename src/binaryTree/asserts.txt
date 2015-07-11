@@ -1,0 +1,12 @@
+Assertion Exceptions that can be raised by BloodDonor.canGiveBlood(d):
+
+
+
+V1) BinTree<Integer,String> t = new BinTree<Integer,String>();
+        t.find(0);
+       java.lang.AssertionError: input empty
+
+V2) BinTree<Integer,String> t = new BinTree<Integer,String>();
+        t.insert(1, "a");
+        t.insert(1, "b");
+        java.lang.AssertionError: insert failed

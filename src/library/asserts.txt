@@ -1,0 +1,16 @@
+Assertion Exceptions that can be raised by TestLibrary.test*:
+
+
+
+V1 Try to return a book that has not been lent --> [returnCopy.1: this item is not marked as borrowed!] 
+
+V2 Try to borrow a book that has been already lent --> [lendItem.1: this copy is still marked as borrowed.] 
+
+V3 Try to remove a book that does not exists --> [removeMedium.1: We have no information about this title registered.]
+
+V4 Create a book that already exists --> [createMedium.1: medium exists]
+
+V5 Add a copy of a book that already exists -->  [createCopy.1: We have no information about this title registered.]
+
+
+

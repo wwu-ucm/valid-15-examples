@@ -1,0 +1,4 @@
+Assertion Exceptions that can be raised by Circle.getRadius():
+
+V1: negative area         --> Circle.getRadius 
+V2: circle0.area = 1.0E-6 --> Sqrt.sqrt ("no convergence")

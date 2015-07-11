@@ -1,0 +1,4 @@
+Possible assertion violations for TestMergeSort.testSortCopy(a,b)
+
+V1) a.length is not a power of 2 --> MergeSort.sort  "no power of 2"
+V2) a.length is a power of 2 --> MergeSort.merge ([merge.1: 1st argument of merge not sorted from 0 to 2, sort.2: , testSort.1: ])

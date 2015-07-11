@@ -1,0 +1,6 @@
+Assertion Exceptions that can be raised by BloodDonor.canGiveBlood(d):
+
+
+V1) Donor d with rejected true --> : BloodDonor.canGiveBlood(): "rejected previously!"
+
+V2) Donor d with age >0 and < 18 --> DonorHealth.checkHealth(): "age not allowed (change of law!)"
